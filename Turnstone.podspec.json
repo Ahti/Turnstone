@@ -15,7 +15,7 @@
     "git": "https://github.com/kylef/Turnstone.git",
     "tag": "0.2.0"
   },
-  "source_files": "Turnstone/*.swift",
+  "source_files": "Sources/*.swift",
   "platforms": {
     "ios": "8.0",
     "osx": "10.9"
@@ -26,7 +26,7 @@
     "URITemplate": [ "~> 1.3" ]
   },
   "test_specification": {
-    "source_files": "TurnstoneSpecs/*.swift",
+    "source_files": "Tests/*.swift",
     "dependencies": {
       "Inquiline": [ "~> 0.2.0" ],
       "Spectre": [ "~> 0.3.0" ]
